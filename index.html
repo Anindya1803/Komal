@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Kite Runner - Khaled Hosseini</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* The Kite Runner Theme Overrides */
+        :root {
+            --primary-color: #d35400;
+            /* Burnt Orange/Red for drama and kites */
+            --secondary-color: #fdf2e9;
+            /* Warm light background */
+            --accent-color: #e67e22;
+            /* Lighter orange */
+            --text-color: #2c3e50;
+            /* Dark Blue-Grey */
+            --bg-color: #fffaf0;
+            /* Floral White */
+        }
+
+        body {
+            background-image: url('images/kite_bg.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, rgba(246, 221, 204, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+        }
+
+        /* Ensure content has a background to be readable */
+        main {
+            background-color: rgba(255, 250, 240, 0.85);
+            /* Floral white with opacity */
+            min-height: 100vh;
+        }
+
+        .rule-card {
+            border-top-color: var(--primary-color);
+            background: rgba(255, 255, 255, 0.95);
+        }
+
+        .takeaway-item {
+            background: rgba(255, 255, 255, 0.9);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">The Kite Runner</div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="#themes">Themes</a></li>
+                <li><a href="#quotes">Quotes</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>The Kite Runner</h1>
+            <p>A powerful story of friendship, betrayal, and the price of redemption.</p>
+            <p>By Khaled Hosseini</p>
+            <br>
+            <a href="#themes" class="btn">Explore Themes</a>
+            <br>
+            <img src="images/kite_hero.png" alt="Kites flying over city"
+                style="max-width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; margin-top: 2rem; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+        </section>
+
+        <section id="themes">
+            <h2 class="section-title">Central Themes</h2>
+            <div class="rule-card">
+                <h3>"For you, a thousand times over"</h3>
+                <p style="margin-top: 1rem; color: #555;">
+                    The novel explores the complexities of friendship between Amir and Hassan, set against the backdrop
+                    of a changing Afghanistan. It delves into guilt, the desire for fatherly approval, and the long road
+                    to redemption.
+                </p>
+            </div>
+        </section>
+
+        <section id="quotes">
+            <h2 class="section-title">Key Quotes</h2>
+            <div class="takeaways-grid">
+                <div class="takeaway-item">
+                    <h3>Redemption</h3>
+                    <p>"There is a way to be good again."</p>
+                </div>
+                <div class="takeaway-item">
+                    <h3>Truth</h3>
+                    <p>"Better to get hurt by the truth than comforted with a lie."</p>
+                </div>
+                <div class="takeaway-item">
+                    <h3>Past</h3>
+                    <p>"It's wrong what they say about the past, I've learned, about how you can bury it. Because the
+                        past claws its way out."</p>
+                </div>
+            </div>
+        </section>
+
+        <section style="text-align: center; padding-bottom: 4rem;">
+            <a href="https://khaledhosseini.com/books/the-kite-runner/" target="_blank" class="btn">Learn More About the
+                Book</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 The Kite Runner Fan Page. Designed by Komal.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

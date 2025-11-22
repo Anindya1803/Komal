@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komal Kashyap - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Cafe/Pink Theme Overrides */
+        :root {
+            --primary-color: #d48c9d;
+            --secondary-color: #fce4ec;
+            --accent-color: #f06292;
+            --text-color: #5d4037;
+            --bg-color: #fff0f5;
+            --light-gray: #fff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background-image: url('images/portfolio_hero.png');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .hero {
+            background: linear-gradient(135deg, rgba(252, 228, 236, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%);
+        }
+
+        .timeline-item {
+            border-left-color: var(--primary-color);
+        }
+
+        .timeline-item::before {
+            background-color: var(--primary-color);
+        }
+
+        .section-title::after {
+            background-color: var(--primary-color);
+        }
+
+        header {
+            background-color: #fff;
+            border-bottom: 3px solid var(--secondary-color);
+        }
+
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--accent-color);
+        }
+
+        .profile-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 10px 30px rgba(212, 140, 157, 0.3);
+            border: 5px solid var(--secondary-color);
+        }
+
+        main {
+            background-color: rgba(255, 240, 245, 0.92);
+            /* Lavender Blush with opacity */
+            min-height: 100vh;
+        }
+
+        .research-card,
+        .timeline-item,
+        .takeaway-item {
+            background: rgba(255, 255, 255, 0.8);
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">Komal Kashyap</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="hero" style="background: var(--white); min-height: auto; padding-top: 6rem;">
+            <div class="about-container">
+                <div class="about-text">
+                    <h1>Hello, I'm Komal Kashyap</h1>
+                    <p style="font-size: 1.5rem; color: var(--primary-color); font-weight: 600;">MBA Marketing | 25</p>
+                    <p style="margin-top: 1rem;">
+                        Passionate marketing professional with expertise in brand management, digital marketing, and
+                        strategic communication.
+                        Currently pursuing MBA from T. A. Pai Management Institute, Manipal, with a strong foundation in
+                        business administration.
+                    </p>
+                    <p style="margin-top: 0.5rem;">
+                        <strong>Email:</strong> komaltapmim2025@learner.manipal.edu<br>
+                        <strong>Phone:</strong> +91-7903117933<br>
+                        <strong>LinkedIn:</strong> <a href="https://linkedin.com/in/LinkedInKK" target="_blank"
+                            style="color: var(--accent-color);">LinkedInKK</a>
+                    </p>
+                </div>
+                <div class="about-image">
+                    <img src="images/komal_profile.jpg" alt="Komal Kashyap" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <h2 class="section-title">Education & Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <span class="timeline-date">2025 - 2027 (Pursuing)</span>
+                    <h3>MBA Marketing</h3>
+                    <p>T. A. Pai Management Institute, Manipal</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">2019 - 2021</span>
+                    <h3>B.A.</h3>
+                    <p>J.M.I (Deemed-to-be University), Bengaluru | 57%</p>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">May 2022 - April 2025</span>
+                    <h3>Senior Editor</h3>
+                    <p><strong>Newslions Media Network, Bangalore</strong></p>
+                    <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                        <li>Monitor social media, local news portals, and liaise with local reporters to source timely
+                            news articles</li>
+                        <li>License news content by contacting original video owners and relevant government officials
+                        </li>
+                        <li>Wrote 3000+ news articles based on verified information ensuring clarity, accuracy, and
+                            audience engagement</li>
+                        <li>Collaborated with fundraising platforms such as Milaap and Impact Guru to create 100+ funded
+                            stories</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">Aug 2025 - Sep 2025</span>
+                    <h3>Sales Intern</h3>
+                    <p><strong>The Optimist Citizen</strong></p>
+                    <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                        <li>Sold 30+ news subscriptions through direct outreach and effective communication</li>
+                        <li>Logged leads and sales activity in CRM to support follow-ups</li>
+                    </ul>
+                </div>
+                <div class="timeline-item">
+                    <span class="timeline-date">Sept 2022 - Nov 2022</span>
+                    <h3>Public Relation Intern</h3>
+                    <p><strong>Ezyschooling</strong></p>
+                    <ul style="margin-top: 0.5rem; margin-left: 1.5rem;">
+                        <li>Onboard medical and academic dignitaries for live sessions on YouTube and Instagram</li>
+                        <li>Engage social media influencers to participate in the social media events</li>
+                        <li>Coordinate and manage live sessions to enhance audience engagement and reach</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2 class="section-title">Projects & Positions of Responsibility</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3>Go-to-Market Strategy - The LIT Cafe</h3>
+                    <span style="color: #777; font-size: 0.9rem;">Aug 2025 - Sep 2025</span>
+                    <p style="margin-top: 0.5rem;">Designed and secured a go-to-market strategy for a kidswear startup
+                        through in-depth market, consumer, and competitor analysis. Recommended multi-channel approach
+                        targeting high-potential parent segments in metro and Tier-2 cities to maximize marketing
+                        effectiveness.</p>
+                </div>
+                <div class="research-card">
+                    <h3>Sammidh (SMIF): FPO SPOC</h3>
+                    <span style="color: #777; font-size: 0.9rem;">July 2025 - Aug, 2025</span>
+                    <p style="margin-top: 0.5rem;">Led Sammidh FPO as SPOC, using strategic communication to secure
+                        investment commitments from individuals. Collected ₹1,65,000 investment from 59 students,
+                        educating potential investors on SMIF operations and investment benefits.</p>
+                </div>
+                <div class="research-card">
+                    <h3>Model United Nations - Director General</h3>
+                    <span style="color: #777; font-size: 0.9rem;">June 2020 - March 2021</span>
+                    <p style="margin-top: 0.5rem;">Organized and conducted the college's first Online MUN during
+                        COVID-19, overcoming virtual communication and network challenges. Achieved 200+ registrations
+                        for the event, demonstrating strong outreach and engagement.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" style="padding: 4rem 5%; max-width: 1200px; margin: 0 auto;">
+            <h2 class="section-title">Training & Certifications</h2>
+            <div class="research-grid">
+                <div class="research-card">
+                    <h3>Brand Management</h3>
+                    <p>Completed Coursera certification on "Brand Management: Aligning Business, Brand and Behaviour" -
+                        University of London</p>
+                </div>
+                <div class="research-card">
+                    <h3>Media Ethics & Governance</h3>
+                    <p>Completed Coursera certification on "Media Ethics & Governance" - University of Amsterdam</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="activities"
+            style="padding: 4rem 5%; max-width: 1200px; margin: 0 auto; background: var(--secondary-color);">
+            <h2 class="section-title">Extra-Curricular Activities</h2>
+            <div class="takeaways-grid">
+                <div class="takeaway-item">
+                    <h3>🎭 Toastmasters International</h3>
+                    <p>Served as a Toastmasters mentor, supporting 30+ members in developing public speaking and
+                        leadership skills (2018-2019)</p>
+                </div>
+                <div class="takeaway-item">
+                    <h3>🎬 Mono Acting Competition</h3>
+                    <p>Achieved 3rd place in Mono Acting competition among 250 participants through outstanding
+                        performance (Feb 2019)</p>
+                </div>
+                <div class="takeaway-item">
+                    <h3>🏆 Street Play Champion</h3>
+                    <p>Secured 1st place in Street Play competition, outperforming participants from 25 colleges (Feb
+                        2020)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Komal Kashyap. All Rights Reserved.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
